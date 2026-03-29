@@ -39,8 +39,30 @@ export default function Navbar() {
               className="absolute inset-0 bg-purple-accent/20 rounded-xl blur-sm group-hover:bg-purple-accent/40 transition-colors" 
             />
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative z-10">
-              <path d="M4 24L12 8L18 18L22 12L28 24H4Z" stroke="#8B5CF6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M12 8L16 14" stroke="white" strokeWidth="2.5" strokeLinecap="round" opacity="0.5"/>
+              {/* Abstract Ridge / Stylized R */}
+              <path 
+                d="M6 26L14 6L20 18L24 12L28 22" 
+                stroke="#8B5CF6" 
+                strokeWidth="2.5" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+                className="drop-shadow-[0_0_8px_rgba(139,92,246,0.5)]"
+              />
+              <path 
+                d="M14 6L18 14" 
+                stroke="white" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                opacity="0.3"
+              />
+              <circle cx="28" cy="22" r="1.5" fill="#8B5CF6" />
+              <path 
+                d="M6 26H26" 
+                stroke="white" 
+                strokeWidth="1" 
+                strokeLinecap="round" 
+                opacity="0.1"
+              />
             </svg>
           </div>
           <div className="flex flex-col leading-none">

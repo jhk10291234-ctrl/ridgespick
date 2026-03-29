@@ -15,7 +15,7 @@ export default function LogoGenerator() {
         contents: {
           parts: [
             {
-              text: "A professional, minimalist logo for a premium design agency named 'RIDGE'. The logo features a sleek, abstract mountain ridge silhouette integrated with a modern geometric 'R'. Color palette: Deep Black background with a vibrant, glowing Purple (#8B5CF6) accent. High-end, luxury, tech-forward aesthetic. 4k resolution, centered composition, vector style, clean lines.",
+              text: "A world-class, ultra-minimalist brand identity logo for 'RIDGE'. The design features a sophisticated, continuous-line abstract mountain ridge that subtly forms a modern letter 'R'. Style: High-end Swiss graphic design, premium tech aesthetic. Colors: Deep matte black background with a sharp, neon-glowing Purple (#8B5CF6) accent line. The logo should feel expensive, precise, and innovative. 8k resolution, photorealistic studio lighting on a dark surface, vector-like precision, symmetrical balance.",
             },
           ],
         },
